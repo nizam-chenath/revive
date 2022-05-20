@@ -1,0 +1,114 @@
+.hero{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    .content-section{
+        grid-gap: 50px;
+        display: grid;
+        grid-template-rows: 60px auto;
+        height: 100%;
+        padding: 20px 80px 80px;
+        position: relative;
+        width: 100%;
+        .nav-section{
+            align-items: center;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            h2{
+                cursor: pointer;
+                font-size: 34px;
+                position: relative;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .nav-items{
+                align-items: center;
+                display: flex;
+                gap: 30px;
+                .login{
+                    cursor: pointer;
+                    p{
+                        font-size: 20px;
+                    }
+                    img{
+                        display: none;
+                    }
+                }
+                .search{
+                    align-items: center;
+                    cursor: pointer;
+                    display: flex;
+                    font-size: 20px;
+                    gap: 5px;
+                }
+            }
+
+        }
+        .content{
+            align-content: center;
+            display: grid;
+            height: 100%;
+            width: 100%;
+            .contents{
+                grid-gap: 50px;
+                display: grid;
+                height: auto;
+                width: 100%;
+                h1{
+                    color: #fff;
+                    font-size: 60px;
+                    line-height: .8;
+                    span{
+                        font-size: 40px;
+                    }
+                }
+                div{
+                    display: block;
+                    button{
+                        background: #f05d2a;
+                        border: none;
+                        border-radius: 10px;
+                        color: #fff;
+                        cursor: pointer;
+                        display: flex;
+                        font-size: 18px;
+                        font-weight: 600;
+                        gap: 10px;
+                        outline: none;
+                        overflow: hidden;
+                        padding: 20px 20px;
+                        position: relative;
+                        img{
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+                }
+                p{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    img{
+        height: 100%;
+        max-height: 100vh;
+        object-fit: cover;
+        object-position: bottom left;
+        width: 100%;
+    }
+    .hero-bottom{
+            background: #0e7c83;
+            height: 20px;
+            width: 100%;
+            bottom: 10px;
+    }
+}

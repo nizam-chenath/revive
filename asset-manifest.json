@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/revive/static/css/main.bf1144bb.css",
+    "main.js": "/revive/static/js/main.9134d2e0.js",
+    "index.html": "/revive/index.html",
+    "main.bf1144bb.css.map": "/revive/static/css/main.bf1144bb.css.map",
+    "main.9134d2e0.js.map": "/revive/static/js/main.9134d2e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf1144bb.css",
+    "static/js/main.9134d2e0.js"
+  ]
+}

@@ -10,7 +10,7 @@ const Reviewer = () => {
         </div>
         <div className="box">
             <h1>Join us as a <br /> book reviewer</h1>
-            <p>Join Reedsy Discovery and help us find great new books</p>
+            <p>Join Reedsy Discovery and help us find great new books 😊</p>
             <p>The best books can go undiscovered. Be part of the movement that shines a light on them</p>
             <div><button>Register</button></div>
         </div>

@@ -25,7 +25,7 @@
             }
         }
         .box{
-            background: #f1f9b2;
+            background: #e7d8a1;
             border-radius: 20px;
             color: #06343d;
             display: grid;
@@ -89,7 +89,7 @@
             height: auto;
             width: 100%;
             .card{
-                background: #17505d;
+                background: #144854;
                 border-radius: 20px;
                 display: grid;
                 grid-template-rows: auto 80px;
@@ -144,7 +144,7 @@
         place-items: center;
         .container{
             grid-gap: 20px;
-            background: #06333c;
+            background: #10414c;
             border-radius: 20px;
             box-shadow: 1px 1px 20px 0 #012f38, inset 1px 1px 25px #063e49;
             color: #94aeb4;
@@ -154,10 +154,11 @@
             padding: 50px 30px;
             width: 600px;
             input{
-                background: #17505d;
+                background: #2b5158;
                 border: none;
                 border-radius: 10px;
-                color: #94aeb4;
+                // color: #94aeb4;
+                color: white;
                 font-size: 20px;
                 font-weight: 700;
                 outline: none;
@@ -176,16 +177,16 @@
                     font-weight: 700;
                     outline: none;
                     overflow: hidden;
-                    padding: 10px;
+                    padding: 7px 15px;
                     position: relative;
-                    width: 130px;
+                    width: 160px;
                 }
             }
             .login{
                 display: flex;
                 justify-content: space-between;
                 button{
-                    background: rgb(240, 93, 42);
+                    background: #d15c33;
                     border: none;
                     border-radius: 10px;
                     color: #fff;
@@ -194,9 +195,9 @@
                     font-weight: 700;
                     outline: none;
                     overflow: hidden;
-                    padding: 10px;
+                    padding: 5px 10px;
                     position: relative;
-                    width: 130px;
+                    width: 160px;
                 }
             }
         }
@@ -261,7 +262,7 @@
         bottom: 50px;
         cursor: pointer;
         display: grid;
-        background: #081f24;
+        background: #0b262c;
         border-radius: 50%;
         height: 80px;
         place-items: center;
@@ -298,7 +299,7 @@
         h2{
             display: grid;
             place-items: center;
-            background: #081f24;
+            background: #0b262c;
             border-radius: 30px;
             color: #fff;
             font-size: 22px;

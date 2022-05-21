@@ -7,7 +7,7 @@ const Rating = () => {
     <div className="rating">
         <div className="top-section">
             <h1>Checkout latest reviews</h1>
-            <p>see more </p>
+            <p>see more > </p>
         </div>
         <div className="cards">
             {data.map((items)=>(
